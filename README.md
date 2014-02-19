@@ -1,4 +1,3 @@
 HelloRuby
 =========
-
-Hello Ruby!
+> Hello Ruby!
