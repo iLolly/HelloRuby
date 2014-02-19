@@ -1,3 +1,4 @@
 HelloRuby
 =========
-> Hello Ruby!
+> Hello Ruby!  
+> Private study
