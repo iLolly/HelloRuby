@@ -1,3 +1,14 @@
+# fixed file
+*.exe
+*.dll
+
+# temp file
+~*
+*.tmp
+*.swp
+*.*~
+*.log
+
 *.gem
 *.rbc
 .bundle
