@@ -9,6 +9,8 @@ desktop.ini
 *.swp
 *.*~
 *.log
+Thumbs.db
+ehthumbs.db
 
 *.gem
 *.rbc
