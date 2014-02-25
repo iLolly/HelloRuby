@@ -1,75 +1,89 @@
+<!--
+>=============================================================================
+>     FileName: note.md
+>         Desc: 
+>       Author: Lolly
+>        Email: cclolly@gmail.com
+>     HomePage: 
+>      Version: 0.0.1
+>   LastChange: 2014-02-26 01:14:10
+>      History:
+>=============================================================================
+-->
+
 Ruby Note
 =========
 
 ## 关键字 ##
 
 ### 关键字 ###
-| Keywords         | Info |
-|------------------|------|
-| \_\_LINE\_\_     |      |
-| \_\_ENCODING\_\_ |      |
-| \_\_END\_\_      |      |
-| \_\_FILE\_\_     |      |
-| =begin           |      |
-| =end             |      |
-| BEGIN            |      |
-| END              |      |
-| alias            |      |
-| and              |      |
-| begin            |      |
-| case             |      |
-| class            |      |
-| def              |      |
-| defined?         |      |
-| do               |      |
-| else             |      |
-| elsif            |      |
-| end              |      |
-| ensure           |      |
-| false            |      |
-| for              |      |
-| if               |      |
-| in               |      |
-| module           |      |
-| next             |      |
-| nil              |      |
-| not              |      |
-| or               |      |
-| redo             |      |
-| rescue           |      |
-| retry            |      |
-| return           |      |
-| self             |      |
-| super            |      |
-| then             |      |
-| true             |      |
-| undef            |      |
-| unless           |      |
-| until            |      |
-| when             |      |
-| while            |      |
-| yield            |      |
+| Keywords         | Info                                        |
+|------------------|---------------------------------------------|
+| \_\_LINE\_\_     |                                             |
+| \_\_ENCODING\_\_ |                                             |
+| \_\_END\_\_      |                                             |
+| \_\_FILE\_\_     |                                             |
+| =begin           |                                             |
+| =end             |                                             |
+| BEGIN            |                                             |
+| END              |                                             |
+| alias            | 别名                                        |
+| and              |                                             |
+| begin            |                                             |
+| case             |                                             |
+| class            |                                             |
+| def              | 有定义的                                    |
+| defined?         |                                             |
+| do               |                                             |
+| else             |                                             |
+| elsif            |                                             |
+| end              |                                             |
+| ensure           |                                             |
+| false            |                                             |
+| for              |                                             |
+| if               |                                             |
+| in               |                                             |
+| module           |                                             |
+| next             |                                             |
+| nil              |                                             |
+| not              |                                             |
+| or               |                                             |
+| redo             |                                             |
+| rescue           |                                             |
+| retry            | 重试                                        |
+| return           |                                             |
+| self             |                                             |
+| super            |                                             |
+| then             |                                             |
+| true             |                                             |
+| undef            |                                             |
+| unless           | 除非                                        |
+| until            | 到...为止                                   |
+| when             | 当...时                                     |
+| while            |                                             |
+| yield            |                                             |
 
-### 语句中的关键字 ###
-| Keywords         | Info |
-|------------------|------|
-| at_exit          |      |
-| attr             |      |
-| attr_accessor    |      |
-| attr_reader      |      |
-| attr_writer      |      |
-| catch            |      |
-| include          |      |
-| lambda           |      |
-| load             |      |
-| loop             |      |
-| private          |      |
-| proc             |      |
-| protected        |      |
-| public           |      |
-| raise            |      |
-| require          |      |
-| throw            |      |
+### 标识符 ###
+| Keywords         | Info                                        |
+|------------------|---------------------------------------------|
+| at_exit          |                                             |
+| attr             |                                             |
+| attr_accessor    |                                             |
+| attr_reader      |                                             |
+| attr_writer      |                                             |
+| catch            |                                             |
+| include          |                                             |
+| lambda           |                                             |
+| load             |                                             |
+| loop             |                                             |
+| private          |                                             |
+| proc             |                                             |
+| protected        |                                             |
+| public           |                                             |
+| raise            |                                             |
+| require          |                                             |
+| throw            |                                             |
+| ...              |                                             |
 
 ### 杂项 ###
 > 常量以大写字母开头  
