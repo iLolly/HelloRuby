@@ -153,3 +153,49 @@ puts s[s.length]     # -> nil # 超过索引
 
 s[1] = ?a
 puts s               # -> hallo
+s[-1] = 'p!'
+puts s               # -> hallp!
+
+t = 'hello'
+puts t[0, 2]         # -> he
+puts t[-1, 1]        # -> o
+puts t[0, 0]         # -> empty
+puts t[0, 10]        # -> hello
+t[0, 1] = ?H
+puts t               # -> Hello
+t[t.length, 0] = ' world'
+puts t               # -> Hello world
+t[5, 0] = ','
+puts t               # -> Hello, world
+t[5, 6] = ''
+puts t               # -> Hellod
+
+y = 'hello'
+puts y[2..3]         # -> ll
+puts y[-3..-1]       # -> llo
+puts y[0..0]         # -> h
+y[-2..-1] = 'p!'
+puts y               # -> help!
+y[0...0] = 'Please '
+puts y               # -> Please help!
+y[6...20] = ''
+puts y               # -> Please
+
+w = 'hello'
+while (w['l'])
+  w['l'] = 'L'
+end
+puts w
+
+# 正则
+z = 'abc, def, ghi, jkl, mno'
+z[/[aeiou]/] = '*' # 第一个匹配
+puts z
+
+puts '- ' * 30
+
+i = '$10000'
+i.each_char { |x| print "#{x} " } # 按字符迭代
+puts
+0.upto(s.size - 1) { |x| print "#{i[x]} " }
+
