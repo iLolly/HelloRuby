@@ -8,7 +8,7 @@
 #        Email: cclolly@gmail.com
 #     HomePage: 
 #      Version: 0.0.1
-#   LastChange: 2014-02-28 02:12:51
+#   LastChange: 2014-03-01 02:04:06
 #      History:
 #=============================================================================
 
@@ -29,7 +29,24 @@ puts v.valid_encoding? # -> false
 
 puts
 
-eurol = "\u20AC"
-puts eurol
-puts eurol.encoding # -> UTF-8
-puts eurol.bytesize # -> 3
+euro1 = "\u20AC"
+puts euro1
+puts euro1.encoding # -> UTF-8
+puts euro1.bytesize # -> 3
+
+puts
+
+euro2 = euro1.encode('iso-8859-15')
+puts euro2.inspect
+puts euro2.encoding
+puts euro2.bytesize
+
+puts
+
+euro3 = euro2.encode('utf-8')
+puts euro1 == euro3
+
+puts
+
+#puts "\u20AC".encode('iso-8859-1') # 无法转换报错
+
