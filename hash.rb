@@ -19,6 +19,7 @@ num['a'] = 1
 num['b'] = 2
 num['c'] = 3
 puts num # {'a'=>1, 'b'=>2, 'c'=>3}
+puts num['b'] # -> 2
 
 sum = num['a'] + num['b'] # 3
 
@@ -29,3 +30,4 @@ num2 = {:a => 1, :b => 2, :c => 3}
 puts num2
 num3 = {a: 1, b: 2, c: 3}
 puts num3
+puts num3[:a] # -> 1
