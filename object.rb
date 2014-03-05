@@ -8,7 +8,7 @@
 #        Email: cclolly@gmail.com
 #     HomePage:
 #      Version: 0.0.1
-#   LastChange: 2014-03-03 02:32:58
+#   LastChange: 2014-03-06 02:46:50
 #      History:
 #=============================================================================
 require './global.rb'
@@ -44,3 +44,21 @@ puts x.is_a? Object                # -> true
 puts x.is_a? String                # -> false
 # 类定义了 === 操作符，可以替换 is_a? 方法
 puts Numeric === x                 # -> true
+
+line
+
+# << 操作符
+o = 2
+puts o.respond_to? :"<<"           # -> true
+puts (o.respond_to? :"<<" and not o.is_a? Numeric) # -> false 排除数值型
+
+line
+
+# 对象的相等性
+# equal?: 测试两个值是否引用了同一个对象
+r = 'Ruby'
+s = t = 'Ruby'
+puts r.equal?(s) # -> false
+puts s.equal?(t) # -> true
+# 比较object_id
+puts r.object_id == s.object_id # -> false
